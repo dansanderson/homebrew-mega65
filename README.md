@@ -18,13 +18,13 @@ To set up the tap:
 brew tap dansanderson/homebrew-mega65
 ```
 
-To install a cask, run `brew cask install` with the cask name as an argument. Use the `--no-quarantine` argument to bypass warnings about developer signatures and notarizations. (MEGA65 projects cannot sign or notarize macOS apps.)
+To install a cask, run `brew cask install` with the cask name as an argument. Use the `--no-quarantine` argument to bypass warnings about developer signatures. (MEGA65 projects cannot sign macOS apps.)
 
 ```
 brew install --cask --no-quarantine mega65-m65connect
 ```
 
-To install a formula, use the same command with the forumula name, and omit the `--cask` and `--no-quarantine` arguments.
+To install a formula, use the same command with the formula name, and omit the `--cask` and `--no-quarantine` arguments.
 
 To update a specific formula or cask, use the `brew upgrade` command with the name of the formula or cask. (No other arguments are needed.)
 

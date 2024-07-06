@@ -16,4 +16,5 @@ cask "mega65-m65connect" do
     caveats do
         path_environment_variable "/Applications/M65Connect.app/Contents/Resources/"
     end
+    caveats "\n*** Run this command before opening M65Connect for the first time:\n  xattr -d com.apple.quarantine /Applications/M65Connect.app\n\nThis silences the false \"damaged\" warning.\n"
 end
